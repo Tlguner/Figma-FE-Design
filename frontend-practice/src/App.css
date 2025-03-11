@@ -1,0 +1,1105 @@
+body{
+  margin: 0;
+  display: flex;
+  place-items: center;
+  justify-content: center;
+  
+  
+}
+
+.TOP{
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  width: 50px; /* Set the width of the button */
+  height: 50px; /* Set the height of the button */
+  border-radius: 50%; /* Make the button circular */
+  background-color: #2cd4a5; /* Set the background color */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  z-index: 1;
+}
+
+/*PAGE1*/
+.LandingPage {
+  width: 100%;
+  height: auto;
+  background-image: url("./img/landing-page-background.png");  /* Resmi ekledik */
+  background-color: #2F1893;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;  /* Tüm ekranı kaplasın */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+  position: relative;
+  padding-bottom:25px ;
+  height: 100vh;
+}
+.LandingPageGroup{
+  
+
+}
+
+
+.landing-background{
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 100% ;
+  width: auto;
+  
+}
+
+.navbar{
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Centers vertically */
+  gap: 30px;
+  position: fixed;
+  width: 100%;
+}
+
+.nav-btn {
+  
+  border: none;
+  font-size: 1em;
+  font-weight: 500;
+  cursor: pointer;
+  background-color: transparent;
+  color: white;
+  padding: 10px 15px; /* Adds some padding for better touchability */
+
+  margin-bottom: 25px;
+  
+}
+.nav-btn:hover {
+  border-color: #646cff;
+}
+.nav-btn:focus,
+.nav-btn:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+
+.Carousel{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+  text-align: center;
+ 
+}
+
+.carousel-content {
+  min-height: 350px;
+  padding-top: 100px;
+  padding-bottom: 50px;
+  margin-left: 200px;
+  margin-right: 200px;
+  
+}
+
+
+/* Okları sabitle */
+.carousel-control-prev,
+.carousel-control-next {
+  
+  margin-right: 200px;
+  margin-left: 10px;
+}
+
+.Create-Acc {
+  background: linear-gradient(135deg, #007AFD, #005BB5); /* Gradient for depth */
+  margin: 50px 0;
+  border-radius: 50px;
+  
+  padding: 13px 30px; /* Combined padding shorthand */
+  font-size: 16px;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Softer shadow */
+}
+
+.Create-Acc:hover {
+  background: linear-gradient(135deg, #005BB5, #00408B); /* Darker on hover */
+  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.3); /* More depth on hover */
+}
+
+.Create-Acc:active {
+  transform: translateY(1px); /* Pressed effect */
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/*page2*/
+
+.Content-page{
+
+  width: 100%;
+  min-height: 600px;
+  background-image: url("./img/Content-img.png");  /* Resmi ekledik */
+  background-color: #2F1893;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;  /* Tüm ekranı kaplasın */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+  position: relative;
+}
+
+.Content-Free-sample{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  min-height: 350px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  margin-left: 200px;
+  margin-right: 200px;
+  width: 50%;
+}
+
+.Free-sample-Header{
+margin-top: 20px;
+margin-bottom: 25px;
+}
+
+.Content-Powerful-Header{
+  margin-top: 20px;
+  margin-bottom: 25px;
+  font-size:50px
+}
+
+/*Page3*/
+
+.Features-page{
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  background-image: url(./img/Features-image.png);
+  background-color: #2F1893;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;  /* Tüm ekranı kaplasın */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  color: white;
+  
+}
+
+
+
+.FeatureGroup{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Ortalar */
+  align-items: center; /* Dikey hizalama */
+  gap: 40px; 
+  text-align: left;
+  max-width: 650px;
+}
+
+.featureExplain{
+  max-width: 640px;
+  font-size: 20px;
+}
+
+.leftSide{
+  margin-top: 40px;
+  max-width: 300px;
+}
+.leftHeader{
+  font-size: 20px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.leftPrag{
+  font-weight: lighter;
+  font-size: 20px;
+}
+.rightSide{
+  margin-top: 40px;
+  max-width: 300px;
+}
+.rightHeader{
+  font-size: 20px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.righPrag{
+  font-weight: lighter;
+  font-size: 20px;
+}
+
+
+/*Page4*/
+
+.Form{
+  width: 100%;
+  min-height: 500px;
+  background-image: url("./img/Content-img.png");  
+  background-color: #2F1893;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;  /* Tüm ekranı kaplasın */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+}
+
+.FormGroup{
+  margin-top: 100px;
+  margin-bottom: 100px;
+  
+display: flex;
+align-items: center; /* Align icon and text vertically */
+gap: 100px
+
+}
+
+.FormLeft{
+  min-width: 200px;
+  max-width: 350px;
+  padding-left: 10px;
+  
+}
+
+.FormLeftHeader{
+  
+  text-align: left;
+  font-size: 35px;
+}
+
+.FormLeftPrag{
+  margin-top: 30px;
+  text-align: left;
+  font-weight: lighter;
+}
+
+.FormRight{
+  
+  border-radius: 10px;
+  background-color: white;
+  padding-top: 30px;
+ padding-bottom: 50px;
+
+}
+.LoginPage{
+  display: flex;
+
+  justify-content: center; /* Ortalar */
+  align-items: center;
+
+}
+
+.button-container {
+  position: relative;
+  display: flex;
+  
+}
+
+
+
+.SignUp, .Login{
+  color: black;
+  border: none;
+  margin-right: 50px;
+  margin-left: 50px;
+  background-color: white;
+  position: relative;
+  z-index: 2;
+  margin-bottom: 10px;
+}
+
+.UserInput{
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  
+}
+
+.Email , .Password{
+  border-radius: 50px;
+  padding: 8px 45px;
+  margin-top: 10px;
+  
+}
+.black-bar {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 50%; /* Butonların genişliğiyle eşleşmeli */
+  height: 4px;
+  background-color: black;
+  border-radius: 2px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.move-left {
+  transform: translateX(0);
+}
+
+.move-right {
+  transform: translateX(100%);
+}
+
+
+
+.Account-btn{
+  background-color:#25DAC5 ;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border: none;
+  cursor: pointer;
+  border-radius: 50px;
+  padding: 10px 55px;
+  color: white;
+  font-size: 12px;
+  width: 250px;
+}
+
+
+.Or{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: gray;
+  font-size: smaller;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/* Styling for the "or" divider */
+.or-divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding-left: 40px;
+  padding-right: 40px;
+  
+}
+
+.divider-line {
+  flex-grow: 1;
+  border-bottom: 1px solid gray;
+  margin: 0 10px; /* Space between the line and "or" */
+}
+
+
+.Twitter-btn{ 
+  background-color: #1DA1F2;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border: none;
+  cursor: pointer;
+  border-radius: 50px;
+  padding: 10px 55px;
+  color: white;
+  font-size: 12px;
+  width: 250px;
+  
+}
+
+
+
+/*Page5*/
+
+.Testimonial{
+
+  background-color: #1E0E62;
+  width: 100%;
+  min-height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.TestimonialHeader{
+  display: flex;
+  align-items: flex-start;
+  justify-content: start;
+  padding-bottom: 20px;
+}
+
+.Clients{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 sütun yapısı */
+  gap: 20px;
+  max-width: 900px;
+  margin: 0 auto;
+  
+}
+
+.Testimonial-Card {
+  border: 1px solid grey;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: left;
+  position: relative;
+  display: flex; /* Keep flex display */
+  align-items: flex-start;
+  gap: 1rem; /* Space between image and text */
+}
+
+.Testimonial-Text {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding-left: 20px;
+  padding-right: 20px;
+  justify-content: space-between; /* This pushes content to top and bottom */
+  min-height: 150px; /* Minimum height to standardize */
+  
+}
+
+.UserPic{
+  width: 70px;
+  height: auto;
+}
+
+.TestimonialText {
+  margin-bottom: 10px; /* Space between testimonial text and client name */
+  flex-grow: 1;
+  
+}
+
+
+
+.TestimonialNames {
+  font-weight: bold;
+  align-self: flex-start; /* Align the names at the bottom of the container */
+}
+
+
+/*Page6*/
+
+.CallToAction{
+  background-image: url("./img/CTA-background.png");
+  background-color: #2F1893;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;  /* Tüm ekranı kaplasın */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+  width: 100%;
+  min-height: 500px;
+}
+
+.CTAWriting{
+  margin-left: 535px;
+  margin-right: 535px;
+  padding-left: 10px;
+}
+
+.CTAWritingHeader{
+  font-size: 58px;
+  margin-bottom: 50px;
+}
+
+.CTAButtons{
+  display: flex;
+  margin-top: 50px;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 50px;
+}
+
+.CTAPlayBtn {
+  width: 70px;
+  height: 70px;
+  background-color: #FF0000; /* YouTube red */
+  border-radius: 100%;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  position: relative;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease-in-out;
+}
+
+.CTAPlayBtn:hover {
+  transform: scale(1.1);
+}
+
+.play-icon {
+  margin-left: 5px;
+  width: 0;
+  height: 0;
+  border-left: 20px solid white;
+  border-top: 12px solid transparent;
+  border-bottom: 12px solid transparent;
+}
+
+.CTAGetStartedBtn{
+  width: 213px;
+  height: 70px;
+  background-color: #25DAC5;
+  border-radius: 50px;
+  padding: 10px 35px;
+  color: white;
+  cursor: pointer;
+  position: relative;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease-in-out;
+}
+
+.CTAGetStartedBtn:hover{
+  transform: scale(1.1);
+
+}
+
+.CTAWritingPrag{
+  font-size: 22px;
+
+}
+
+/*Page 7*/
+.ShowCase{
+
+  background-color: #2F1893;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.ShowGroup{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.ShowHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%; /* Ensure it takes full width */
+  max-width: 1200px; /* Optional: Prevent it from being too wide */
+  margin-bottom: 20px;
+}
+
+.ViewAllBtn{
+  background-color: transparent;
+  color: white;
+  border-radius: 150px;
+  padding: 10px 20px;
+  font-size: 18px;
+  border: 1px grey solid;
+  overflow: hidden;    
+  cursor:pointer;    
+
+}
+
+.ViewAllBtn:active{
+  background-color: #e93a7d; /* Change color on click */
+}
+
+.ShowWorks{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 sütun yapısı */
+  gap: 50px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.ShowImg {
+  width: 100%; /* Set the width to 100% of the container */
+  height: auto; /* Maintain the aspect ratio */
+  max-width: 300px; /* Set a maximum width */
+  border-radius: 10px; /* Optional: Add rounded corners */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Optional: Add a shadow */
+}
+
+.CardHeader{
+  padding-top: 20px;
+  font-size: 14px;
+  font-weight: bold;
+}
+.CardName{
+  font-size: 22px;
+
+}
+
+
+/* Page 8*/
+
+.Team{
+  background-color: #2F1893;
+  display: flex;
+  flex-direction: column;
+  align-items:flex-start;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  
+}
+
+.TeamGroup{
+
+  margin-left: 10%;
+  max-width: 750px; 
+
+}
+
+.TeamHeader{
+  max-width: 750px; 
+}
+
+
+
+.TeamHeaderHeader {
+  font-size: 42px;
+  font-weight: bold;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.TeamHeaderPrag{
+  font-size:22px ;
+  text-align: left;
+
+}
+
+.TeamCard{
+  width: 200px;
+  height: auto;
+}
+
+.TeamImg{
+  margin-top: 55px;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 100%;
+
+  gap: 50px;
+}
+
+.TeamCardName{
+  font-size: 22px;
+  justify-content: flex-start;
+  display: flex;
+
+
+}
+
+.TeamCardProfession{
+  display: flex;
+  font-size: 16px;
+  justify-content: flex-start;
+}
+
+.TeamCardLogos{
+  display: flex;
+  justify-content:flex-start;
+  gap: 30px;
+}
+
+
+/* Page 8*/
+
+
+
+.Contact{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  background-image: url(./img/Contact-Background.png);
+  background-color: #2F1893;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;  /* Tüm ekranı kaplasın */
+ 
+  color: white;
+}
+
+.ContactGroup{
+margin-top: 100px;
+margin-bottom: 100px;
+display: flex;
+gap: 200px;
+height: 500px;
+}
+
+
+
+
+
+.ContactGroupLeft{
+  text-align: left;
+  width: 300px;
+
+}
+
+.PhoneNumber{
+  margin-top: 25px;
+  display: flex;
+  flex-direction: row;
+
+}
+.PhoneNumber p {
+  margin-left: 15px;
+  font-size: 16px;
+}
+
+.MailAddress{
+  margin-top: 25px;
+  display: flex;
+  flex-direction: row;
+}
+
+.MailAddress p{
+  margin-left: 15px;
+  font-size: 16px;
+}
+
+.Address{
+  margin-top: 25px;
+  display: flex;
+  flex-direction: row;
+}
+
+.Address p{
+  margin-left: 15px;
+  font-size: 16px;
+}
+
+.AddressIcon{
+  font-size: 35px;
+}
+
+.ContactRight{
+  text-align: left;
+  color: white;
+
+}
+
+/*Right side*/
+.ContactGroupRight {
+  padding: 40px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  color: black;
+  align-items: center;
+  border-radius: 15px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  margin: auto;
+}
+
+.Test {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 100%;
+}
+
+.ContactGroupRightHead {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.input-group label {
+  font-weight: bold;
+  font-size: 12px;
+  color: gray;
+  margin-bottom: 5px;
+}
+
+.t1, .PriceTag, .t2, textarea {
+  width: 100%;
+  padding: 12px;
+  border-radius: 50px;
+  border: 1px solid #ccc;
+  outline: none;
+  font-size: 14px;
+}
+
+textarea {
+  border-radius: 10px;
+  height: 80px;
+  resize: none;
+}
+
+.checkbox-group {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+}
+
+.send-btn {
+  background-color: #2cd4a5;
+  color: white;
+  padding: 10px;
+  width: 100%;
+  border: none;
+  border-radius: 50px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.send-btn:hover {
+  background-color: #24b88e;
+}
+
+
+
+
+/*Page 9*/
+
+.PricingTable{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #2F1893;
+  color: white;
+
+}
+
+.PriceHead{
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 500px;
+}
+
+.PriceHeadHeader{
+  font-size: 42px;
+  font-weight: bold;
+}
+
+.PriceHeadPrag{
+  font-size: 22px;
+}
+
+.pricing-container {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  padding: 20px;
+}
+
+.pricing-card {
+  width: 300px;
+  border: 1px solid #ddd;
+  padding: 20px;
+  text-align: start;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  background-color: #2F1893;
+  color: white;
+}
+
+.pricing-title {
+  margin-left: 20px;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.DollarSign {
+  font-size: 16px;
+  position: absolute;
+  top: 10px;
+  right: -15px;
+}
+
+.pricing-price {
+  font-size: 58px;
+  color: white;
+  margin: 10px;
+  position: relative;
+  display: inline-block;
+  margin-left: 30px;
+}
+
+.pricing-features {
+  margin-left: 20px;
+  list-style: none;
+  padding: 0;
+}
+
+.feature-item {
+  display: flex;
+  align-items: center;
+  padding: 8px 0;
+}
+
+.checkmark {
+  display: inline-block;
+  width: 12px; /* Match your checkmark image width */
+  height: 22px; /* Match your checkmark image height */
+  margin-right: 10px; /* Consistent spacing between checkmark and text */
+}
+
+.CheckMark {
+  width: 12px; /* Adjust to your image’s actual size */
+  height: 12px;
+}
+
+.feature-text {
+  flex: 1; /* Ensures text takes up remaining space and aligns consistently */
+}
+
+/* Style for available features */
+.available {
+  color: white; /* Or whatever color you prefer for available features */
+}
+
+/* Style for unavailable features */
+.unavailable {
+  color: #ccc; /* Gray out unavailable features; adjust as needed */
+}
+
+.pricing-button {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 50px;
+  background: none;
+  color: white;
+  border: solid 1px black;
+  padding: 10px 50px;
+  margin: 20px auto;
+}
+
+.pricing-button:hover {
+  background-color: #e93a7d;
+}
+
+/*Page 10*/
+
+.FooterGroup {
+  display: flex;
+  flex-direction: column; /* Dikey hizalama için */
+  align-items: center;
+  background-color: #2F1893;
+  color: white;
+  padding: 20px 0;
+  width: 100%; /* Footer tüm genişliği kaplasın */
+}
+
+.FooterHead {
+  display: flex;
+  width: 80%; /* İçeriğin genişliğini artır */
+  max-width: 1200px; /* Çok geniş olmasını engelle */
+  justify-content: space-between; /* Sol ve sağ taraf ayrılacak */
+  align-items: center;
+  
+}
+
+.FooterHeadRight {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  margin-left: auto; /* Sağ tarafa yasla */
+  align-items: center; /* Tüm öğeleri aynı hizada tutar */
+
+}
+
+.FooterHeadRight p {
+  margin: 0; /* Remove default margin that may cause misalignment */
+  display: flex;
+  align-items: center;
+}
+
+/* Çizgi (Divider) */
+.divider-line2 {
+  width: 80%;
+  max-width: 1200px;
+  height: 1px;
+  background-color: white;
+  margin-top: 10px;
+}
+
+
+.FooterBody{
+  display: flex;
+  width: 80%; /* İçeriğin genişliğini artır */
+  max-width: 1200px; /* Çok geniş olmasını engelle */
+  justify-content: space-between; /* Sol ve sağ taraf ayrılacak */
+  align-items: center;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.FooterBodyRight{
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  margin-left: auto; /* Sağ tarafa yasla */
+}
